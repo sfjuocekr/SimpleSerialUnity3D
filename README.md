@@ -1,13 +1,9 @@
-/**********************************************************************
-   
-   [  SimpleSerialUnity3D  ]
- *                                                                    *
+[  SimpleSerialUnity3D  ]
+
    - A simple Arduino interface for Unity3D, using string commands.
    - It supports read and write for analog and digital pins for now.
- *                                                                    *
-   Author: Sjoer van der Ploeg
 
-*********************************************************************/
+   - Author: Sjoer van der Ploeg
 
 A command is sent as a string over serial, and the handling is based
 on a simple state machine.
